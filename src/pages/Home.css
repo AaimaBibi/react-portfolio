@@ -1,0 +1,177 @@
+/* Base Container */
+.home-page {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.4s ease, color 0.4s ease;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ========== Section Layouts ========== */
+section {
+  margin-bottom: 4rem;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* ========== Hero Section ========== */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* ========== About Section ========== */
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* ========== Skills Section ========== */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.skill-tag {
+  background: #eef;
+  color: #334;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: #dde;
+}
+
+/* Dark mode adjustments */
+.dark .skill-tag {
+  background: #222;
+  color: #aad;
+}
+
+.dark .skill-tag:hover {
+  background: #333;
+}
+
+/* ========== Featured Projects ========== */
+.featured-projects p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.project-preview {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ========== Footer ========== */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer p {
+  margin-bottom: 0.8rem;
+}
+
+/* ========== Buttons ========== */
+.btn {
+  padding: 0.7rem 1.4rem;
+  background-color: #3366ff;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #254edb;
+}
+
+.btn.outline {
+  background: transparent;
+  color: #3366ff;
+  border: 2px solid #3366ff;
+}
+
+.btn.outline:hover {
+  background-color: #3366ff;
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
+.footer {
+  background: #fefefe;
+  padding: 1rem 1rem;
+  text-align: center;
+  border-top: 2px dashed #ccc;
+  margin-top: 4rem;
+  border-radius: 12px;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #3366ff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 0.5rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
