@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={`navbar ${darkMode ? 'dark' : 'light'}`}>
-        <div className="logo">Faiza</div>
+        <div className="logo">Aaima Bibi</div>
 
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <NavLink to="/" className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
