@@ -32,9 +32,7 @@ My learning approach is highly project-driven—I enjoy turning concepts into in
 
 I believe that great developers aren’t born—they’re built through consistent practice and curiosity. That’s the mindset I bring to every line of code. 
         </p>
-        <p>
-          “I’ve earned certifications in Responsive Web Design from freeCodeCamp, demonstrating my ability to build mobile-friendly, accessible layouts using semantic HTML and modern CSS.”
-        </p>
+        
       </section>
 
       {/* 🧠 Skills Section */}
@@ -59,7 +57,7 @@ I believe that great developers aren’t born—they’re built through consiste
 
       {/* 🔻 Footer */}
       <footer className="footer">
-        <p>Designed & Built with 💛 by Aaima — 2025</p>
+        <p>Designed & Built with 💛 by Faiza — 2025</p>
       </footer>
 
     </main>
