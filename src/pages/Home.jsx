@@ -14,7 +14,7 @@ const Home = () => {
 
       {/* 🌟 Hero Section */}
       <section className="hero">
-        <h1>Hi, I’m Aaima — Aspiring Frontend Developer </h1>
+        <h1>Hi, I’m Faiza — Aspiring Frontend Developer </h1>
         <p>I build interactive web experiences that blend clean code with meaningful design.</p>
         <div className="hero-buttons">
           <Link to="/projects" className="btn">View Projects</Link>
