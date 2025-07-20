@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const skills = [
   'Html5', 'CSS3', 'JavaScript', 'Responsive Designs',
   'React', 'APIs', 'useEffect Cleanup',
-  'Debounce Logic', 'UI/UX Design', 'Performance Optimization',
+  'Debounce Logic','Performance Optimization',
 ];
 
 const Home = () => {
