@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const skills = [
   'Html5', 'CSS3', 'JavaScript', 'Responsive Designs',
-  'React', 'APIs', 'useEffect Cleanup',
-  'Debounce Logic','Performance Optimization',
+  'React', 'useEffect Cleanup',
+  'Debounce Logic','Performance Optimization', 'tailwind CSS', 'BootStrap', 'SASS', 'LESS', 'APIs',
 ];
 
 const Home = () => {
@@ -26,9 +26,9 @@ const Home = () => {
       <section className="about">
         <h2>About Me</h2>
         <p>
-         I’m an aspiring Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, currently focusing on modern frameworks like React.
+         I’m an aspiring Frontend Developer with a strong foundation in HTML, CSS, JavaScript,and React.
 
-My learning approach is highly project-driven—I enjoy turning concepts into interactive web experiences. I pay attention to detail, whether it's styling a component for responsive layouts or optimizing performance using hooks like useEffect. I’m also exploring best practices in UI/UX to craft interfaces that feel intuitive and engaging.
+My learning approach is highly project-driven—I enjoy turning concepts into interactive web experiences. I pay attention to detail, whether it's styling a component for responsive layouts or optimizing performance using hooks like useEffect.
 
 I believe that great developers aren’t born—they’re built through consistent practice and curiosity. That’s the mindset I bring to every line of code. 
         </p>
