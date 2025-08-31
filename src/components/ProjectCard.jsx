@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
 
-const ProjectCard = ({ title, description, tech, link }) => {
+const ProjectCard = ({ title, description, tech, link , repo}) => {
   return (
     <div className="project-card">
       <div className="card-content">
@@ -13,6 +13,7 @@ const ProjectCard = ({ title, description, tech, link }) => {
           ))}
         </div>
         <a href={link} target="_blank" rel="noopener noreferrer">Live Demo</a>
+         <a href={repo } target="_blank" rel="noopener noreferrer">View Code</a>
       </div>
     </div>
   );
