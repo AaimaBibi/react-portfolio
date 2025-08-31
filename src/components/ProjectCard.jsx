@@ -12,8 +12,12 @@ const ProjectCard = ({ title, description, tech, link , repo}) => {
             <span key={i}>{t}</span>
           ))}
         </div>
+        <div>
         <a href={link} target="_blank" rel="noopener noreferrer">Live Demo</a>
-         <a href={repo } target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+        <div> 
+          <a href={repo } target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
       </div>
     </div>
   );
