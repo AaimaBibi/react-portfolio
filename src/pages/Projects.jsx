@@ -24,6 +24,21 @@ const Projects = () => {
       link: 'https://todo-list-zeta-six-70.vercel.app/',
       repo: "https://github.com/AaimaBibi/todo-list"
     },
+    {
+      title: 'Random-String-Generator',
+      description:'A sleek and secure password generator with a modern UI. Users can choose the desired length and instantly create strong, randomized passwords—ideal for everyday security needs.',
+      tech:  ['React', 'Tailwind CSS'],
+      link: 'https://random-string-generator-zeta.vercel.app/',
+      repo: "https://github.com/AaimaBibi/Random-string-generator"
+    },
+    {
+      title: 'Text-Translator',
+      description:'A fast, multilingual text translation tool built for global communication. This app empowers users to instantly convert text between dozens of languages using real-time API integration.',
+      tech:  ['React', 'API Integration: Axios', 'Vite', 'Tailwind CSS'],
+      link: 'https://text-translator-kappa-ebon.vercel.app/',
+      repo: "https://github.com/AaimaBibi/Text-Translator"
+},
+  
   
   ];
 
